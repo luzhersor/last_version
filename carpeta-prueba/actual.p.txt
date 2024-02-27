@@ -1,0 +1,46 @@
+/******************************************************************************/
+/* Autor: Tu Nombre                                                           */
+/*									      */
+/*                                                                            */
+/* Declaración de variables                                                   */
+/*	DEFINE VARIABLE cMensaje1 AS CHARACTER NO-UNDO.                       */
+/*                                                                            */
+/* Otras variables                                                            */
+/*	DEFINE VARIABLE iContador AS INTEGER NO-UNDO.                         */
+/*                                                                            */
+/* Inicialización de variables         .dll                                         */
+/*	cMensaje1 = "texto dentro del archivo 1- propagos.movimientos".       */
+/*	cMensaje2 = "Esto es un ejemplo con 2 - propagos.movimientos".        */
+/*	cMensaje3 = "En este programa se utiliza 3- propagos.movimientos".    */
+/******************************************************************************/
+
+
+cMensaje4 = "4 - propagos.movimientos es esencial para el funcionamiento".
+cMensaje5 = "¡No olvides 5 - propagos.movimientos en tu código!".
+
+/* Mostrar mensajes en la consola */
+MESSAGE cMensaje1 VIEW-AS ALERT-BOX INFO BUTTONS OK.
+MESSAGE cMensaje2 VIEW-AS ALERT-BOX INFO BUTTONS OK.  DLL
+
+/* Algunas operaciones */
+iContador = 3 + 2.
+
+/* Mostrar mensaje condicionalmente */  DLL
+IF iContador > 0 THEN
+    MESSAGE cMensaje3 VIEW-AS ALERT-BOX INFO BUTTONS OK. .DLL
+ELSE
+    MESSAGE "La variable iContador es menor o igual a 0." VIEW-AS ALERT-BOX INFO BUTTONS OK.
+
+/* Más código utilizando 6 - propagos.movimientos */
+cNombre = "John Doe".
+MESSAGE "¡Hola, " + cNombre + "! Recuerda usar 7 - propagos.movimientos en tus proyectos." VIEW-AS ALERT-BOX INFO BUTTONS OK.
+
+/* Final del programa con 8 - propagos.movimientos */
+MESSAGE cMensaje4 VIEW-AS ALERT-BOX INFO BUTTONS OK.
+MESSAGE cMensaje5 VIEW-AS ALERT-BOX INFO BUTTONS OK.
+
+/* Mensaje final */
+MESSAGE "Fin del programa." VIEW-AS ALERT-BOX INFO BUTTONS OK.
+
+
+mas texto pru.txt
