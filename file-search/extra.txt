@@ -1,0 +1,7 @@
+ /*  loadNextLevel(row: any): void {
+  //this.loadNextLevel = true
+  this.loadingNextLevel = true;
+  this.currentDepth++;
+  this.searchRecursively(row, null, this.currentDepth);
+  this.loadingNextLevel = false;
+} */
